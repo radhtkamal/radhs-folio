@@ -1,0 +1,62 @@
+.flex-container.container.section-four .section-header {
+  min-width: 600px;
+  margin: 50px 0 0 -20px;
+}
+
+.flex-container.container.section-four .left-flex,
+.flex-container.container.section-four .right-flex {
+  left: -50px;
+}
+
+.section-four-avatar {
+  height: 550px;
+}
+
+.section-four-avatar-wrap {
+  position: absolute;
+  top: 130px;
+  left: 250px;
+}
+
+.section-four-flower {
+  width: 250px;
+  animation: bounce-right 10s infinite;
+}
+
+.section-four-flower-wrap {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+}
+
+.section-four-paper-wrap {
+  position: absolute;
+  top: 400px;
+  transform: rotate(45deg);
+  left: -45px;
+  z-index: -1;
+}
+
+.section-four-paper {
+  width: 250px;
+  animation: wobble-hor-bottom 5s infinite;
+}
+
+.section-four .flower-spinner-big {
+  position: absolute;
+  top: 400px;
+  left: 500px;
+  z-index: -1;
+}
+
+.section-four-envelope {
+  width: 150px;
+  animation: shake-vertical 10s infinite;
+  filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.5));
+}
+
+.section-four-envelope-wrap {
+  position: absolute;
+  top: 4%;
+  left: 99%;
+}
